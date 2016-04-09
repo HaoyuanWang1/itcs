@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+/* Flamingo后台配置 */
+
+body {
+	margin-top: 60px;
+}
+
+.navbar .brand {
+    color: #fff;
+}

@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+html{
+	height: 100%;
+	margin:0;
+	padding:0
+}
+body {
+	height:100%;
+	background: #f0f0f0;
+}
+.container{
+	height:100%;
+}
+
+.login {
+	margin: auto;
+	margin-top: 120px;
+	width: 800px;
+	min-height: calc(100% - 300px); 
+}
+
+.login-banner {
+	float: left;
+	margin-top: 20px;
+	margin-right: 40px;
+}
+
+.login-banner h2 {
+	margin: 15px auto 0;
+	font-size: 32px;
+	font-weight: 400;
+}
+.login-banner .dc-logo {
+	margin-top: 15px;
+	width: 138px;
+	height: 50px;
+}
+
+.login-form {
+	height: 235px;
+	padding: 20px;
+	background: #fff;
+	border: 2px solid #ccc;
+	-webkit-border-radius: 5px;
+	-moz-borde-radius: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.login-nav {
+	margin-bottom: 20px;
+	border-bottom: 1px solid #eee;
+	line-height: 40px;
+	overflow: hidden;
+	*zoom: 1;
+}
+.login-nav h3 {
+	float: left;
+	margin: 0 auto;
+	padding-left: 20px;
+	font-size: 24px;
+	font-weight: 400;
+}
+.login-nav .dc-sso {
+	float: right;
+	color: #26c;
+}
+.login-form .form-horizontal{
+	padding: 30px 0 0;
+}
+.login-form .form-horizontal .control-label {
+	width: 100px;
+}
+.login-form .form-horizontal .controls {
+	margin-left: 120px;
+}
+.login-form .form-horizontal .controls p{
+	margin-bottom:3px;
+}
+.concat {
+	color: #D50825;
+}
+.text-error {
+	margin: 0 0 10px 120px;
+}
+.footer {
+	margin: 40px auto 20px;
+	padding: 15px 90px 20px;
+	border-top: 1px solid #ddd;
+	color: #b5b5b5;
+	font-size: 12px;
+	overflow: hidden;
+	*zoom: 1;
+}
+.footer-detail {
+	float: left;
+	padding-left: 10px;
+	line-height: 25px;
+}
+.footer p {
+	margin: 0;
+}
+.dc-logo-grey {
+	float: left;
+	padding-right: 10px;
+	border-right: 1px solid #b5b5b5;
+}
+.dc-logo-grey img {
+	width: 130px;
+	height: 50px;
+}
+.footer-info{margin-right: 10px;}
+.btn{
+	background-image: none;
+}
+.text-info{
+	color:#666;
+}
+.text-info .btn-fp{
+	cursor:pointer;
+	float: left;
+}
+.forgetPs{
+	width:300px;
+	float: right;
+	position: relative;
+	top:-9px;
+	background-color: #fff;
+	padding: 10px;
+	border: 1px solid #d1d1d1;
+	border-radius: 6px;
+}
+.forgetPs p{
+	white-space: nowrap;
+	margin: 0;
+}
+.corebefore{
+	display: inline-block;
+	position: absolute;
+	left: -24px;
+	top: 7px;
+	border-left: 12px solid transparent;
+	border-right: 12px solid #d1d1d1;
+	border-top: 12px solid transparent;
+	border-bottom: 12px solid transparent;
+	height: 0;
+	width: 0;
+	content: "";
+}
+.coreafter{
+	display: inline-block;
+	position: absolute;
+	left: -22px;
+	top: 7px;
+	border-left: 12px solid transparent;
+	border-right: 12px solid #fff;
+	border-top: 12px solid transparent;
+	border-bottom: 12px solid transparent;
+	height: 0;
+	width: 0;
+	content: "";
+}
